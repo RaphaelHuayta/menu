@@ -14,10 +14,11 @@ body {
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: left;
 }
 .simple-box {
     background-color: rgb(51, 51, 51);
-    background: center;
+    background: left;
     color: white;
     padding: 20px;
     border-radius: 50px;
@@ -62,4 +63,11 @@ h1{
 h2{
     color: white;
     font-style: Arial;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px;
+
 }
